@@ -14,6 +14,7 @@ import com.google.common.io.Files;
 public class ScreenShots {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
+		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");
 		
